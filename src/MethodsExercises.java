@@ -11,7 +11,7 @@ public class MethodsExercises {
         multiplication(5, 5);
         division(20, 5);
         factorial();
-        Dice();
+        dice();
 
     }
 
