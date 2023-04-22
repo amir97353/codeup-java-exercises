@@ -7,6 +7,3 @@ public class coffeCup {
     }
 }
 
-    public static void main(String[] args) {
-    
-    }

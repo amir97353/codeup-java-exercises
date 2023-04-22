@@ -2,8 +2,8 @@ public class HelloWorld {
 
     public static void main(String[] args) {
         System.out.println("Hello world");
-        int myFavoriteNumber = 11;
-        String myString = "My last day";
+        int myFavoriteNumber = 5;
+        String myString = "Im hungry";
         float myNumber = 3.14f;
         System.out.println(myFavoriteNumber);
         System.out.println(myString);
