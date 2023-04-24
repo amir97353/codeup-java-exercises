@@ -10,10 +10,15 @@ public class Person {
     }
 
     public void sayHello() {
-        System.out.println(name);
+        System.out.printf("Say Hello to %s",name);
+    }
+
+    public Person (String name) {
+        this.name = name;
     }
     public static void main(String[] args){
-    Person person1 = new Person();
+    Person person1 = new Person("Bob");
+    Person person2 = new Person("Bob");
         person1.setName("Joe");
         System.out.println(person1.getName());
         person1.sayHello();
