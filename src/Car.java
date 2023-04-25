@@ -1,9 +1,12 @@
+import java.awt.*;
+
 public class Car {
     String make;
     double price;
     int year;
-    String Color;
 
 
-
+    public Car(String make, double price, int year ){
+// This is a constructor for the car class.
+    }
 }
