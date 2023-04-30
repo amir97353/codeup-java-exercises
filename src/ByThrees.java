@@ -7,7 +7,13 @@ public class ByThrees implements Series{
     }
     //Below the getNext method comes from the interface Series. When implementing an interface you must use all the methods from the interface class
     public int getNext(){
-        val += 3;
+        if (val >= Max) {
+            System.out.println(Error);
+        } else {
+            val += 2;
+        }
         return val;
     }
+
+
 }

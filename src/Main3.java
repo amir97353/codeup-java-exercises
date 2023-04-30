@@ -27,11 +27,7 @@ public class Main3 {
             seriesObjcet = byThrees1;
             System.out.println("By Threes" + seriesObjcet.getNext());
         }
-
-
-
-
-
-
+            // Below is the default method that is in the Series interface.
+            bytwos1.printStuff();
     }
 }
